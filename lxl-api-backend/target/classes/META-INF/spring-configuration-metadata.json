@@ -1,0 +1,48 @@
+{
+  "groups": [
+    {
+      "name": "oss.qiniu",
+      "type": "com.lxl.lxlApi.config.QiNiuInitConfig",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "oss.qiniu.access-key",
+      "type": "java.lang.String",
+      "description": "AccessKey",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    },
+    {
+      "name": "oss.qiniu.bucket-file-name",
+      "type": "java.lang.String",
+      "description": "文件存储空间名",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    },
+    {
+      "name": "oss.qiniu.bucket-picture-name",
+      "type": "java.lang.String",
+      "description": "图片存储空间名",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    },
+    {
+      "name": "oss.qiniu.domain-file",
+      "type": "java.lang.String",
+      "description": "文件外链",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    },
+    {
+      "name": "oss.qiniu.domain-picture",
+      "type": "java.lang.String",
+      "description": "图片外链",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    },
+    {
+      "name": "oss.qiniu.secret-key",
+      "type": "java.lang.String",
+      "description": "SecretKey",
+      "sourceType": "com.lxl.lxlApi.config.QiNiuInitConfig"
+    }
+  ],
+  "hints": []
+}

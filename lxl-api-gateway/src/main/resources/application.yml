@@ -1,0 +1,27 @@
+server:
+  port: 9000
+spring:
+  application:
+    name: lxlApi-gateway
+  cloud:
+    gateway:
+      routes:
+        - id: hello
+          uri: http://localhost:8123
+          predicates:
+            - Path=/api/name/**
+        - id: bmi
+          uri: https://papi.v-box.cn
+          predicates:
+            - Path=/app/**
+dubbo:
+  application:
+    # 禁用QOS同一台机器可能会有端口冲突现象
+    qos-enable: false
+    name: dubbo-consumer
+  protocol:
+    name: dubbo
+    port: -1
+  registry:
+    id: nacos-registry
+    address: nacos://localhost:8848

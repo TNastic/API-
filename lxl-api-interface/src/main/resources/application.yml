@@ -1,0 +1,9 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api
+lxl:
+  api:
+    client:
+      access-key: 111
+      secret-key: abcdefg
